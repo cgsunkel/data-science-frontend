@@ -9,10 +9,9 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "12:35"
+      timezone: "Etc/GMT"
     #labels: 
     #  - "security"
     reviewers:
       - "cgsunkel" # for now - I will change this next year
-    time: "12:34"
-    # Use Japan Standard Time (UTC +09:00)
-    timezone: "Etc/GMT"
