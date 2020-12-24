@@ -9,9 +9,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "12:35"
+      time: "12:40"
       timezone: "Etc/GMT"
     #labels: 
     #  - "security"
     reviewers:
       - "cgsunkel" # for now - I will change this next year
+    open-pull-requests-limit: 1000000000000000000
