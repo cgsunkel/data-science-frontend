@@ -13,3 +13,6 @@ updates:
     #  - "security"
     reviewers:
       - "cgsunkel" # for now - I will change this next year
+    time: "12:33"
+    # Use Japan Standard Time (UTC +09:00)
+    timezone: "GMT"
