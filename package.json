@@ -63,7 +63,7 @@
     "@uktrade/wdio-image-diff-js": "^1.8.0",
     "@wdio/browserstack-service": "^6.1.4",
     "@wdio/cli": "6.1.4",
-    "@wdio/local-runner": "^6.1.4",
+    "@wdio/local-runner": "^6.11.3",
     "@wdio/mocha-framework": "^6.1.8",
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^6.1.23",
