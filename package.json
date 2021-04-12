@@ -121,7 +121,7 @@
     "connect-redis": "3.3.3",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^1.0.0",
-    "date-fns": "^1.29.0",
+    "date-fns": "^2.20.2",
     "dateformat": "3.0.3",
     "del-cli": "^1.1.0",
     "element-closest": "^2.0.2",
