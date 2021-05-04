@@ -7091,7 +7091,7 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-handlebars@>=4.0.14, handlebars@^4.0.3, handlebars@^4.1.2, handlebars@^4.7.6:
+handlebars@>=4.0.14, handlebars@^4.0.3, handlebars@^4.7.6:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.2.1.tgz#dc69c0e61604224f0c23b38b5b6741db210b57da"
   integrity sha512-bqPIlDk06UWbVEIFoYj+LVo42WhK96J+b25l7hbFDpxrOXMphFM3fNIm+cluwg4Pk2jiLjWU5nHQY7igGE75NQ==
@@ -7317,6 +7317,11 @@ html-encoding-sniffer@^1.0.2:
   integrity sha512-71lZziiDnsuabfdYiUeWdCVyKuqwWi23L8YeIgV9jSSZHCtb6wB1BKWooH7L3tn4/FuZJMVWyNaIDr4RGmaSYw==
   dependencies:
     whatwg-encoding "^1.0.1"
+
+html-escaper@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
+  integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
 html-to-react@^1.3.4:
   version "1.4.2"
@@ -8330,10 +8335,10 @@ istanbul-api@^1.3.1:
     mkdirp "^0.5.1"
     once "^1.4.0"
 
-istanbul-api@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/istanbul-api/-/istanbul-api-2.1.6.tgz#d61702a9d1c66ad89d92e66d401e16b0bda4a35f"
-  integrity sha512-x0Eicp6KsShG1k1rMgBAi/1GgY7kFGEBwQpw3PXGEmu+rBcBNhqU8g2DgY9mlepAsLPzrzrbqSgCGANnki4POA==
+istanbul-api@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/istanbul-api/-/istanbul-api-3.0.0.tgz#eca53a6d3995eb39d59f2a9c1ee7071877770550"
+  integrity sha512-6KTQT5osUuuDT1ybWvrzJIXljrzDiZTHLxUkEr6WY1lAO2Q3PzZCH5+gSAEOaUhJf+qbaC79rQyCNeHGB6+6gw==
   dependencies:
     async "^2.6.2"
     compare-versions "^3.4.0"
@@ -8343,11 +8348,12 @@ istanbul-api@^2.1.6:
     istanbul-lib-instrument "^3.3.0"
     istanbul-lib-report "^2.0.8"
     istanbul-lib-source-maps "^3.0.6"
-    istanbul-reports "^2.2.4"
+    istanbul-reports "^2.2.5"
     js-yaml "^3.13.1"
     make-dir "^2.1.0"
     minimatch "^3.0.4"
     once "^1.4.0"
+    semver "^6.0.0"
 
 istanbul-lib-coverage@^1.2.0, istanbul-lib-coverage@^1.2.1:
   version "1.2.1"
@@ -8447,12 +8453,12 @@ istanbul-reports@^1.5.1:
   dependencies:
     handlebars "^4.0.3"
 
-istanbul-reports@^2.2.4:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-2.2.6.tgz#7b4f2660d82b29303a8fe6091f8ca4bf058da1af"
-  integrity sha512-SKi4rnMyLBKe0Jy2uUdx28h8oG7ph2PPuQPvIAh31d+Ci+lSiEu4C+h3oBPuJ9+mPKhOyW0M8gY4U5NM1WLeXA==
+istanbul-reports@^2.2.5:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-2.2.7.tgz#5d939f6237d7b48393cc0959eab40cd4fd056931"
+  integrity sha512-uu1F/L1o5Y6LzPVSVZXNOoD/KXpJue9aeLRd0sM9uMXfZvzomB0WxVamWb5ue8kA2vVWEmW7EG+A5n3f1kqHKg==
   dependencies:
-    handlebars "^4.1.2"
+    html-escaper "^2.0.0"
 
 isurl@^1.0.0-alpha5:
   version "1.0.0"
@@ -9970,14 +9976,14 @@ mkdirp-classic@^0.5.2:
   resolved "https://registry.yarnpkg.com/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
   integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
-mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
+mkdirp@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
 
-mkdirp@^0.5.3:
+"mkdirp@>=0.5 0", mkdirp@^0.5, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.0, mkdirp@~0.5.1:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
