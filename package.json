@@ -59,7 +59,7 @@
   },
   "homepage": "https://github.com/uktrade/data-science-frontend#readme",
   "devDependencies": {
-    "@uktrade/client-matrix-js": "^1.0.38",
+    "@uktrade/client-matrix-js": "^1.0.107",
     "@uktrade/wdio-image-diff-js": "^1.8.0",
     "@wdio/browserstack-service": "^6.1.4",
     "@wdio/cli": "6.1.4",
